@@ -1,0 +1,7 @@
+D:\#develop\CsvTo1C\Converter\Contracts\bin\Debug\CsvTo1C.Contracts.dll
+D:\#develop\CsvTo1C\Converter\Contracts\bin\Debug\CsvTo1C.Contracts.pdb
+D:\#develop\CsvTo1C\Converter\Contracts\obj\Debug\Contracts.csprojResolveAssemblyReference.cache
+D:\#develop\CsvTo1C\Converter\Contracts\obj\Debug\CsvTo1C.Contracts.Templates.AccountStatementAlfa.resources
+D:\#develop\CsvTo1C\Converter\Contracts\obj\Debug\Contracts.csproj.GenerateResource.Cache
+D:\#develop\CsvTo1C\Converter\Contracts\obj\Debug\CsvTo1C.Contracts.dll
+D:\#develop\CsvTo1C\Converter\Contracts\obj\Debug\CsvTo1C.Contracts.pdb

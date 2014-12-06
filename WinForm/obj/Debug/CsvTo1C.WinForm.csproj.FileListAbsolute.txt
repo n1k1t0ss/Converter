@@ -1,0 +1,16 @@
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\bin\Debug\CsvTo1C.WinForm.exe.config
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\bin\Debug\CsvTo1C.WinForm.exe
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\bin\Debug\CsvTo1C.WinForm.pdb
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\bin\Debug\CsvTo1C.Contracts.dll
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\bin\Debug\CsvTo1C.dll
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\bin\Debug\CsvHelper.dll
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\bin\Debug\CsvTo1C.Contracts.pdb
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\bin\Debug\CsvTo1C.pdb
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\bin\Debug\CsvHelper.pdb
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\bin\Debug\CsvHelper.xml
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\obj\Debug\CsvTo1C.WinForm.csprojResolveAssemblyReference.cache
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\obj\Debug\CsvTo1C.WinForm.Form1.resources
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\obj\Debug\CsvTo1C.WinForm.Properties.Resources.resources
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\obj\Debug\CsvTo1C.WinForm.csproj.GenerateResource.Cache
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\obj\Debug\CsvTo1C.WinForm.exe
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C.WinForm\obj\Debug\CsvTo1C.WinForm.pdb

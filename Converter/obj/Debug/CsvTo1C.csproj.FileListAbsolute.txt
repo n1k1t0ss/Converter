@@ -1,0 +1,10 @@
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C\bin\Debug\CsvTo1C.dll
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C\bin\Debug\CsvTo1C.pdb
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C\bin\Debug\CsvHelper.dll
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C\bin\Debug\CsvTo1C.Contracts.dll
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C\bin\Debug\CsvTo1C.Contracts.pdb
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C\bin\Debug\CsvHelper.pdb
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C\bin\Debug\CsvHelper.xml
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C\obj\Debug\CsvTo1C.csprojResolveAssemblyReference.cache
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C\obj\Debug\CsvTo1C.dll
+D:\#develop\CsvTo1C\CsvTo1C\CsvTo1C\obj\Debug\CsvTo1C.pdb
