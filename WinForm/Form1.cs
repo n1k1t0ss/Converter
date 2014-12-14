@@ -29,7 +29,7 @@ namespace CsvTo1C.WinForm
             if (!string.IsNullOrEmpty(textBox1.Text))
             {
                 var main = new Main();
-                main.ConvertCsvTo1C(textBox1.Text, int.Parse(SkipFirstNRowsEdit.Text), DelimiterEdit.Text);
+                main.ConvertCsvTo1C(textBox1.Text, int.Parse(SkipFirstNRowsEdit.Text), DelimiterEdit.Text, TransitBillTextBox.Text);
                 textBox1.Text = string.Empty;
                 DoneLabel.Visible = true;
             }

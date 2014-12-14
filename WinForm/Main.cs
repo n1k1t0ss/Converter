@@ -12,14 +12,14 @@ namespace CsvTo1C.WinForm
 {
     public class Main
     {
-        public void ConvertCsvTo1C(string filename, int skipFirstNRows, string delimiter)
+        public void ConvertCsvTo1C(string filename, int skipFirstNRows, string delimiter, string tranzitBill)
         {
             var text = new StreamReader(filename, Encoding.Default);
-            var output = ConvertCsvTo1C(text, skipFirstNRows, delimiter);
+            var output = ConvertCsvTo1C(text, skipFirstNRows, delimiter, tranzitBill);
             CreateFile(filename, output);
         }
 
-        public string ConvertCsvTo1C(StreamReader text, int skipFirstNRows, string delimiter)
+        public string ConvertCsvTo1C(StreamReader text, int skipFirstNRows, string delimiter, string tranzitBill)
         {
             var list = Converter.ParseCsv<AccountStatementAlfa>(text, Encoding.Default, UnescapeCodes(delimiter), skipFirstNRows);
 
@@ -42,6 +42,15 @@ namespace CsvTo1C.WinForm
                                                                                   default:
                                                                                       throw new NotSupportedException();
                                                                               }
+
+                                                                              if (!string.IsNullOrEmpty(tranzitBill) && properies.Single(o => o.Name == "pol_acc").Value == tranzitBill)
+                                                                              {
+                                                                                  foreach (var propery in properies.Where(o => o.Name == "plat_acc"))
+                                                                                  { 
+                                                                                      propery.Value = string.Empty;
+                                                                                  }
+                                                                              }
+
 
                                                                               return properies;
                                                                           }
