@@ -42,6 +42,8 @@
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             this.DoneLabel = new System.Windows.Forms.Label();
             this.TransitBillTextBox = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -163,16 +165,37 @@
             // 
             // TransitBillTextBox
             // 
-            this.TransitBillTextBox.Location = new System.Drawing.Point(24, 136);
+            this.TransitBillTextBox.Location = new System.Drawing.Point(24, 219);
             this.TransitBillTextBox.Name = "TransitBillTextBox";
             this.TransitBillTextBox.Size = new System.Drawing.Size(259, 20);
             this.TransitBillTextBox.TabIndex = 12;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(21, 177);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(232, 13);
+            this.label5.TabIndex = 13;
+            this.label5.Text = "Введите номер текущего транзитного счета";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(21, 193);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(667, 13);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "(не обязательно, но ели ввести - исправляет баг Эльбы, при котором поступление на" +
+    " транзитный счет считаются конвертацией) ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(929, 519);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.TransitBillTextBox);
             this.Controls.Add(this.DoneLabel);
             this.Controls.Add(this.linkLabel1);
@@ -209,6 +232,8 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.Label DoneLabel;
         private System.Windows.Forms.TextBox TransitBillTextBox;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
     }
 }
 
